@@ -2,14 +2,16 @@
 #include <string>
 
 int main(){
-    std::string string1, string2;
+    std::string str1, str2, str3;
 
     std::cout << "string1=";
-    std::cin >> string1; 
+    std::cin >> str1; 
     std::cout << "string2="; 
-    std::cin >> string2;
+    std::cin >> str2;
 
-    std::cout << "string1+string2=" << string1+string2 << std::endl;
+    str3= str1 + str2;
+
+    std::cout << "string1+string2=" << str3 << std::endl;
     
     return 0;
 
